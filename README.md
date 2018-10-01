@@ -23,7 +23,7 @@ I deployed this site to both github page and netlify.com
 ### Netlify deployment
 
 `>npm install -g netlify-cli`
-`>netlify-cli deploy`
+`>netlify deploy`
 
 ### Github Page deployment
 
