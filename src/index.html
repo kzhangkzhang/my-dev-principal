@@ -1,228 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kevin, a code advocate</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kevin, a code advocate</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body>
+    <div class="jumbotron bg-dark text-white text-center">
+      <h1 class="display-3">Kevin's Simple Principals</h1>
+      <p class="lead pt-4">
+        - As a code advocate and writing code constantly on daily basis, I am
+        striking to follow 10 simple practices for myself
+      </p>
+    </div>
 
-<body>
+    <div id="devrule" class="text-center">
+      <!-- # 1 -->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              #1 - Always format code
+            </button>
+          </h5>
+        </div>
 
-
-  <div class="jumbotron bg-dark text-white">
-    <h1 class="display-3">Kevin's Simple Principals</h1>
-    <p class="lead pt-4">- As a code advocate and writing code constantly on daily basis, I am striking to follow 10 simple practices for myself</p>
-  </div>
-
-  <div id="accordion">
-    <!-- # 1 -->
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-            #1 - Always format code
-          </button>
-        </h5>
-      </div>
-
-      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body bg-dark text-white">
-          When code is formatted probably, it will make your life easily: debugging, readability, understanding the logic. More important:
-          this is one of the indicators between junior vs. senior programmer
+        <div
+          id="collapseOne"
+          class="collapse"
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body bg-dark text-white">
+            When code is formatted probably, it will make your life easily:
+            debugging, readability, understanding the logic. More important:
+            this is one of the indicators between junior vs. senior programmer
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 2 -->
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            #2 - Always check out file
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body bg-dark text-white">
-          When modifying an existing file, make sure you always check it out from revision control system. More important: make sure
-          you are working on the latest version as production. You will cry a lot after spending hours coding and found out
-          the code you started is not matching to latest production version
+      <!-- # 2 -->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              #2 - Always check out file
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordion"
+        >
+          <div class="card-body bg-dark text-white">
+            When modifying an existing file, make sure you always check it out
+            from revision control system. More important: make sure you are
+            working on the latest version as production. You will cry a lot
+            after spending hours coding and found out the code you started is
+            not matching to latest production version
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 3 -->
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            #3 - Be a lazy developer
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body bg-dark text-white">
-          Before you create any new object (e.g. function), always ask yourself: is there any existing object already there so that
-          I can leverage? Don't re-invent the same wheel.
+      <!-- # 3 -->
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              #3 - Be a lazy developer
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordion"
+        >
+          <div class="card-body bg-dark text-white">
+            Before you create any new object (e.g. function), always ask
+            yourself: is there any existing object already there so that I can
+            leverage? Don't re-invent the same wheel.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 4 -->
-    <div class="card">
-      <div class="card-header" id="headingFour">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            #4 - Naming convension
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-        <div class="card-body bg-dark text-white">
-          As a developer, we like be innovative; however, when coming to the naming conversion, you should avoid innovation & always
-          follow the group practice naming file/DB object/Program etc.
+      <!-- # 4 -->
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              #4 - Naming convension
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseFour"
+          class="collapse"
+          aria-labelledby="headingFour"
+          data-parent="#accordion"
+        >
+          <div class="card-body bg-dark text-white">
+            As a developer, we like be innovative; however, when coming to the
+            naming conversion, you should avoid innovation & always follow the
+            group practice naming file/DB object/Program etc.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 5 -->
-    <div class="card">
-      <div class="card-header" id="headingFive">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            #5 - DRY and Modular your code
-          </button>
-        </h5>
-      </div>
-      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          DRY: DO NOT REPEAT YOURSELF. If you find you are writing very similar code (e.g. a select statement) again and again with
-          minor difference, considering to create a common function (resusable object). This is always a key indicator between
-          junior vs. senior developer.
-          <p>
-            Try to avoid writing many lines of code for the same procedure. Such code is hard to debug and understand. Try to break it
-            into multiple small logical code units.
-          </p>
+      <!-- # 5 -->
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              #5 - DRY and Modular your code
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseFive"
+          class="collapse"
+          aria-labelledby="headingFive"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            DRY: DO NOT REPEAT YOURSELF. If you find you are writing very
+            similar code (e.g. a select statement) again and again with minor
+            difference, considering to create a common function (resusable
+            object). This is always a key indicator between junior vs. senior
+            developer.
+            <p>
+              Try to avoid writing many lines of code for the same procedure.
+              Such code is hard to debug and understand. Try to break it into
+              multiple small logical code units.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 6 -->
-    <div class="card">
-      <div class="card-header" id="headingSix">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-            #6 - Quality vs Time vs Quantity
-          </button>
-        </h5>
-      </div>
-      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          Never sacrifice quality for the time and quantity. When you receive pressure to deliver something, don't tell yourself: I
-          don't have enough time so I will lower the quality of my code (e.g. error handling) to reduce the coding time.
-          You can even tell yourself: I will make it better later. In reality, we are all so busy and we will never have
-          chance to go back to fix/improve the code. We are measured by the value we bring into our professional work. It
-          will be shame if my program is just implemented and bug is reported immediately.
+      <!-- # 6 -->
+      <div class="card">
+        <div class="card-header" id="headingSix">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseSix"
+            >
+              #6 - Quality vs Time vs Quantity
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseSix"
+          class="collapse"
+          aria-labelledby="headingSix"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            Never sacrifice quality for the time and quantity. When you receive
+            pressure to deliver something, don't tell yourself: I don't have
+            enough time so I will lower the quality of my code (e.g. error
+            handling) to reduce the coding time. You can even tell yourself: I
+            will make it better later. In reality, we are all so busy and we
+            will never have chance to go back to fix/improve the code. We are
+            measured by the value we bring into our professional work. It will
+            be shame if my program is just implemented and bug is reported
+            immediately.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 7 -->
-    <div class="card">
-      <div class="card-header" id="headingSeven">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-            #7 - Build with confidence & Ask help if you don't know
-          </button>
-        </h5>
-      </div>
-      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          In IT world, code is either 1 or 0. Don't makeup the result. Study the business case, ER diagram. If you really can't figure
-          out, ask your peer to help you. It is NOT A SHAME to say, "I don't know. can you help me?". This is much better
-          than endless rework cycles.
+      <!-- # 7 -->
+      <div class="card">
+        <div class="card-header" id="headingSeven">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseSeven"
+              aria-expanded="false"
+              aria-controls="collapseSeven"
+            >
+              #7 - Build with confidence & Ask help if you don't know
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseSeven"
+          class="collapse"
+          aria-labelledby="headingSeven"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            In IT world, code is either 1 or 0. Don't makeup the result. Study
+            the business case, ER diagram. If you really can't figure out, ask
+            your peer to help you. It is NOT A SHAME to say, "I don't know. can
+            you help me?". This is much better than endless rework cycles.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 8 -->
-    <div class="card">
-      <div class="card-header" id="headingEight">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-            #8 - Dare to make the change and go beyond
-          </button>
-        </h5>
-      </div>
-      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          Just because something is running correctly, that doesn't make it is running in the most efficient way or there is no room
-          to improve. Technology is always emerging and progressive. When working on some peice of code, try to see if you
-          can improve any exiting code. Force yourself to rethink and refactor. This is a key indicators between leader developer
-          vs. follower developer.
+      <!-- # 8 -->
+      <div class="card">
+        <div class="card-header" id="headingEight">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseEight"
+              aria-expanded="false"
+              aria-controls="collapseEight"
+            >
+              #8 - Dare to make the change and go beyond
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseEight"
+          class="collapse"
+          aria-labelledby="headingEight"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            Just because something is running correctly, that doesn't make it is
+            running in the most efficient way or there is no room to improve.
+            Technology is always emerging and progressive. When working on some
+            peice of code, try to see if you can improve any exiting code. Force
+            yourself to rethink and refactor. This is a key indicators between
+            leader developer vs. follower developer.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 9 -->
-    <div class="card">
-      <div class="card-header" id="headingNine">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-            #9 - Pay attention to New object
-          </button>
-        </h5>
-      </div>
-      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          when you introduce a new thing (object, table, code etc), you should put extra effort to make it best. Typically, the footprint
-          of an object is pimrarily established when it is born first time. It is like building a new house, you want to
-          build it correctly/efficiently/effectively ... The benefit is long-term. if something starts with a defect from
-          beginning, it is will take lots of effort to correct. So why not try your best to make it best first-time.
+      <!-- # 9 -->
+      <div class="card">
+        <div class="card-header" id="headingNine">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseNine"
+              aria-expanded="false"
+              aria-controls="collapseNine"
+            >
+              #9 - Pay attention to New object
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseNine"
+          class="collapse"
+          aria-labelledby="headingNine"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            when you introduce a new thing (object, table, code etc), you should
+            put extra effort to make it best. Typically, the footprint of an
+            object is pimrarily established when it is born first time. It is
+            like building a new house, you want to build it
+            correctly/efficiently/effectively ... The benefit is long-term. if
+            something starts with a defect from beginning, it is will take lots
+            of effort to correct. So why not try your best to make it best
+            first-time.
+          </div>
         </div>
       </div>
-    </div>
-    <!-- # 10 -->
-    <div class="card">
-      <div class="card-header" id="headingTen">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-            #10 - Learn new Technology
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-        <div class="card-body  bg-dark text-white">
-          awlays be aware of new technology. Just because you don't use it today, that doesn't make you will not use it tomorrow. Be
-          prepared!!!
+      <!-- # 10 -->
+      <div class="card">
+        <div class="card-header" id="headingTen">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#collapseTen"
+              aria-expanded="false"
+              aria-controls="collapseTen"
+            >
+              #10 - Learn new Technology
+            </button>
+          </h5>
         </div>
-        <div class="card-footer text-muted text-center bg-dark text-white">
-          <blockquote class="blockquote">
-            <p class="mb-0">Anyone who stops learning is old, whether at tweety or eighty. Anyone who keeps learning stays young. The greatest
-              thing in life is to keep your mind young.</p>
-            <footer class="blockquote-footer">
-              <cite title="Source Title">Henry Ford</cite>
-            </footer>
-          </blockquote>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- MAIN FOOTER -->
-  <footer id="main-footer" class="bg-dark text-white">
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <div class="py-4">
-            <h1 class="h3">Code Advocate</h1>
-            <p>Copyright &copy; 2018 Kevin Zhang</p>
+        <div
+          id="collapseTen"
+          class="collapse"
+          aria-labelledby="headingTen"
+          data-parent="#accordion"
+        >
+          <div class="card-body  bg-dark text-white">
+            awlays be aware of new technology. Just because you don't use it
+            today, that doesn't make you will not use it tomorrow. Be
+            prepared!!!
+          </div>
+          <div class="card-footer text-muted text-center bg-dark text-white">
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Anyone who stops learning is old, whether at tweety or eighty.
+                Anyone who keeps learning stays young. The greatest thing in
+                life is to keep your mind young.
+              </p>
+              <footer class="blockquote-footer">
+                <cite title="Source Title">Henry Ford</cite>
+              </footer>
+            </blockquote>
           </div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+    <div class="text-center">
+      <h3 class="text-capitalize text-warning bg-dark my-4">
+        7 habits for successful software engr
+      </h3>
+      <div class="alert alert-primary" role="alert">
+        Understand the scope and the problem first before coding
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        Documents as much as you can
+      </div>
+      <div class="alert alert-success" role="alert">
+        Write readable & maintainable code
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Be good at cross-functional work
+      </div>
+      <div class="alert alert-warning" role="alert">
+        Be an effective communicator
+      </div>
+      <div class="alert alert-info" role="alert">
+        Recognize opportunities for improvement & impacts
+      </div>
+      <div class="alert alert-light" role="alert">Have a growth mindset</div>
+    </div>
 
+    <!-- MAIN FOOTER -->
+    <footer id="main-footer" class="bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="py-4">
+              <h1 class="h3">Code Advocate</h1>
+              <p>Copyright &copy; 2018 Kevin Zhang</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
